@@ -219,7 +219,7 @@ jobs:
           echo "status=success" >> ${GITHUB_OUTPUT}
 
       - name: Packaging OpenWrt
-        uses: jerryhappygirl/amlogic-s9xxx-openwrt@main
+        uses: ophub/amlogic-s9xxx-openwrt@main
         with:
           openwrt_path: https://dl.openwrt.ai/releases/targets/armsr/armv8/openwrt-07.26.2024-armsr-armv8-box-rootfs.tar.gz
           openwrt_board: ${{ inputs.openwrt_board }}
