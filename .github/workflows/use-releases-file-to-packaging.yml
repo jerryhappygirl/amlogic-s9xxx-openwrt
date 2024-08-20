@@ -221,7 +221,7 @@ jobs:
       - name: Packaging OpenWrt
         uses: ophub/amlogic-s9xxx-openwrt@main
         with:
-          openwrt_path: https://dl.openwrt.ai/releases/targets/armsr/armv8/openwrt-07.26.2024-armsr-armv8-box-rootfs.tar.gz
+          openwrt_path: https://drive.usercontent.google.com/download?id=1xftUaGypfzNKanPmvVg-RDM7JTpnr7T7&export=download&authuser=0&confirm=t&uuid=ad39574a-4e79-40ff-8644-1563ee6c7608&at=APZUnTW3UJsLMyrTEN6CVqmriA7Z%3A1724162092797
           openwrt_board: ${{ inputs.openwrt_board }}
           openwrt_kernel: ${{ inputs.openwrt_kernel }}
           auto_kernel: ${{ inputs.auto_kernel }}
